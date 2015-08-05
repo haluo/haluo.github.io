@@ -1,6 +1,6 @@
 ---
 layout: default
-title: zhufeng's blog
+title: 首页
 ---
 {% include JB/setup %}
 
