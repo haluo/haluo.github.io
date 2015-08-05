@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Hello World!
-tagline: Supporting tagline
+title: zhufeng's blog
 ---
 {% include JB/setup %}
 
