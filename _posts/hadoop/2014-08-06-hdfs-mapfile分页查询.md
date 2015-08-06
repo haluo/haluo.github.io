@@ -26,6 +26,7 @@ mapfile的分页逻辑如下：
             String p = "/work/iis_un2/"+host+"/"+ip+"/"+datepath+"/"+hourstr+"_z.map";
             Configuration conf = new Configuration();
             conf.set("fs.defaultFS", "hdfs://hadoop-lq-194-129:8020");
+            conf.setBoolean("fs.hdfs.impl.disable.cache", true);
             FileSystem fs = FileSystem.get(conf);
             int cnum = 0;//已经去掉的数据条数
             int hnum = 0;//已经取得的数据条数
