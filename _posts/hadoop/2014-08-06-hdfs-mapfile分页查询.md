@@ -57,7 +57,7 @@ mapfile的分页逻辑如下：
             mv.addObject("time",time);
             mv.addObject("startLine",startLine);
         } catch (Exception e) {
-            log.err("iisdetail exception",e);
+            log.error("iisdetail exception",e);
         }
         return mv;
     }
