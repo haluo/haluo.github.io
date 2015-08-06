@@ -12,7 +12,9 @@ mapfile的分页逻辑如下：
 
 
 
- @RequestMapping(value = "/iis/detail")
+
+
+@RequestMapping(value = "/iis/detail")
     public ModelAndView iisdetail(String ip,String host,String time,Integer startLine){
         ModelAndView mv = new ModelAndView("/iis/detail");
         BloomMapFile.Reader reader=null;
@@ -20,7 +22,6 @@ mapfile的分页逻辑如下：
             if(startLine==null){
                 startLine=1;
             }
-
             Integer endLine = startLine+99;
             List<String> logs = new ArrayList<String>();
             Date d = DateUtils.p1(time);
