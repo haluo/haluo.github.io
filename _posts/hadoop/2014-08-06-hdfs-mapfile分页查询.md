@@ -10,11 +10,7 @@ tags : [hadoop,hdfs,mapfile]
 于是用到了mapile<br/>
 mapfile的分页逻辑如下：
 
-
-
-
-
-@RequestMapping(value = "/iis/detail")
+`@RequestMapping(value = "/iis/detail")
     public ModelAndView iisdetail(String ip,String host,String time,Integer startLine){
         ModelAndView mv = new ModelAndView("/iis/detail");
         BloomMapFile.Reader reader=null;
@@ -63,4 +59,4 @@ mapfile的分页逻辑如下：
             e.printStackTrace();
         }
         return mv;
-    }
+    }`
