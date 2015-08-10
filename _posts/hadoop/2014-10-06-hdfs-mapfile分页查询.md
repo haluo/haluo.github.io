@@ -6,7 +6,7 @@ tags : [hadoop,hdfs,mapfile]
 ---
 {% include JB/setup %}
 
-日志分析项目中需要用到HDFS存储海量nginx日志，并对外提供分页查询明细的服务<br/>
+日志分析项目中需要用到HDFS存储海量nginx和iis日志，并对外提供分页查询明细的服务<br/>
 于是用到了mapile<br/>
 mapfile的分页逻辑如下：
 
