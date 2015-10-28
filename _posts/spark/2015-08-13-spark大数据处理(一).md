@@ -7,7 +7,6 @@ tags : [spark]
 {% include JB/setup %}
 
 ### 前言
-刚好需要在公司给同事做个spark大数据处理方面的分享，于是做个了整理写在博客里。<br/>
 前段时间将公司日志分析系统的实时分析由storm迁移到了spark-streaming,定时任务也全部换成了spark来计算。已经在线上跑了几个月
 总体还算稳定。<br/>
 公司用到spark版本是CDH的1.3.0。这里不讲spark的安装过程<br/>
